@@ -26,7 +26,7 @@ All code is sourced from the `RfidResearchGroup/proxmark3` repository. Special t
 
 2. Download the necessary binary from the release.
 
-3. 下载 `fm11rf08s_recovery.py` from this repository.
+3. Download `fm11rf08s_recovery.py` from this repository.
 
     Make sure to place all the files in the same directory. The file structure should look like this:
 
