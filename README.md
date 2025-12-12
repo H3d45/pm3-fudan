@@ -2,6 +2,12 @@
 
 One-click extraction of fully encrypted Fudan card data.
 
+基于原版主要修复了BUG
+1.修复了保存的转储Key是按密钥类型存储的BUG.
+2.兼容冰人固件最新版v4.20728-180-g7fa548fc5 2025-12-06版本.
+3.兼容冰人固件v4.18994-552-g325376d7e 2024-11-21版本.不能低于v4.18994不然这个脚本用不了.
+4.增加了部分中文注释.
+
 ## License
 
 This project is licensed under the GPLv3, same as the license of `RfidResearchGroup/proxmark3` .
@@ -16,7 +22,7 @@ All code is sourced from the `RfidResearchGroup/proxmark3` repository. Special t
 
 2. Download the necessary binary from the release.
 
-3. Download `fm11rf08s_recovery.py` from this repository.
+3. 下载 `fm11rf08s_recovery.py` from this repository.
 
     Make sure to place all the files in the same directory. The file structure should look like this:
 
@@ -42,7 +48,9 @@ All code is sourced from the `RfidResearchGroup/proxmark3` repository. Special t
 	    └───// ...spin...
 	```
 
-4. Run `fm11rf08s_recovery.py --port COM1`, `COM1` is the serial port of Proxmark3.
+4. Run `fm11rf08s_recovery.py --port COM1`.
+
+   `COM1` is the serial port of Proxmark3.
 
 	The script will output something like this:
 
