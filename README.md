@@ -2,7 +2,9 @@
 
 One-click extraction of fully encrypted Fudan card data.
 
-基于原版主要修复了BUG
+基于原版主要修复了BUG(官方编译好的二进制是不代Python模块的,可以配合脚本使用,自己编译的如果有安装Python依赖默认是有带Python脚本的,则不需要使用该脚本)
+
+本脚本遵循之前作者的开源协议
 
 1.修复了保存的转储Key是按密钥类型存储的BUG.
 
